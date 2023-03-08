@@ -254,8 +254,7 @@ span {
   padding: 0 0 120px 0;
 }
 .creators-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   gap: 10px;
   margin-top: 24px;
 }
@@ -264,7 +263,7 @@ span {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 32px 44px 32px 32px;
+  padding: 32px 32px 32px 32px;
 }
 .andrew-huang p {
   color: black;
@@ -277,7 +276,7 @@ span {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 32px 44px 32px 32px;
+  padding: 32px 32px 32px 32px;
 }
 .kshmr p {
   color: black;
@@ -290,7 +289,7 @@ span {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 32px 44px 32px 32px;
+  padding: 32px 32px 32px 32px;
 }
 .kesha-lee p {
   color: black;
@@ -363,6 +362,7 @@ span {
   .navigation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
   }
   .navigation-buttons {
     padding: 18px 0 20px 0;
@@ -430,9 +430,12 @@ span {
     padding: 0 0 0 30px;
   }
   .creators-container img {
-    width: 180px;
-    height: 180px;
-    padding: 0 0 0 16px;
+    width: 160px;
+    height: 160px;
+  }
+  .andrew-huang, .kshmr, .kesha-lee {
+    display: flex;
+    align-items: center;
   }
   .try-splice h3 {
     font-size: 42px;
