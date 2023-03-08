@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #121214;
 }
 html {
   width: 100%;
@@ -22,6 +23,7 @@ h1 {
 }
 h2 {
   font-size: 28px;
+  margin-top: 6px;
 }
 ul,
 ul li {
@@ -46,9 +48,9 @@ span {
   padding: 0 20px;
 }
 .header {
-  background-color: #121214;
   width: 100%;
   position: fixed;
+  background-color: #121214;
 }
 .navigation {
   display: grid;
@@ -59,16 +61,18 @@ span {
 .navigation-list {
   display: flex;
   align-items: center;
+  gap: 20px;
+}
+.navigation-list li a {
   font-family: "Roboto";
   font-size: 16px;
-  gap: 20px;
 }
 .top-navigation a {
   color: #a6a8ad;
 }
 .button-login {
-  color: #a6a8ad;
   background-color: #121214;
+  color: #a6a8ad;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -117,12 +121,12 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  padding-top: 10%;
   display: flex;
   align-items: center;
 }
 .home-container {
   max-width: 420px;
-  padding-top: 140px;
 }
 .home p {
   color: #ffffff;
@@ -141,14 +145,8 @@ span {
   cursor: pointer;
   margin-top: 44px;
 }
-.open-more {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 16px;
-}
 .sounds {
   display: flex;
-  background-color: #121214;
 }
 .sounds-container {
   display: flex;
@@ -177,7 +175,6 @@ span {
 }
 .experience {
   display: flex;
-  background-color: #121214;
 }
 .experience-container {
   display: flex;
@@ -197,7 +194,6 @@ span {
 }
 .gear {
   display: flex;
-  background-color: #121214;
 }
 .gear-container {
   display: flex;
@@ -226,7 +222,6 @@ span {
 }
 .technology {
   display: flex;
-  background-color: #121214;
   padding: 0 0 120px 0;
 }
 .technology-container {
@@ -256,7 +251,6 @@ span {
   cursor: pointer;
 }
 .creators {
-  background-color: #121214;
   padding: 0 0 120px 0;
 }
 .creators-container {
@@ -331,7 +325,6 @@ span {
   font-size: 54px;
 }
 .footer {
-  background-color: #121214;
   height: 100vh;
 }
 .footer-navigation {
@@ -359,4 +352,108 @@ span {
   font-family: "Roboto";
   font-size: 12px;
   gap: 24px;
+}
+@media only screen and (max-width: 1200px) {
+  .wrap {
+    padding: 0 40px;
+  }
+  .navigation-list li a {
+    font-size: 14px;
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .navigation-buttons {
+    padding: 18px 0 20px 0;
+  }
+  .button-login {
+    font-size: 14px;
+  }
+  .button-sign-up {
+    font-size: 14px;
+  }
+  .click-here {
+    font-size: 14px;
+  }
+  .home {
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  .home p {
+    font-size: 16px;
+  }
+  .try-free {
+    font-size: 14px;
+    padding: 10px 18px 10px 18px;
+    margin-top: 20px;
+  }
+  .sounds-container {
+    margin-top: 60px;
+  }
+  .sounds-container img {
+    width: 530px;
+    height: 336px;
+  }
+  .explore-sounds-button {
+    font-size: 14px;
+    padding: 10px 18px 10px 18px;
+    margin-top: 16px;
+  }
+  .experience-container {
+    margin-top: 60px;
+  }
+  .experience-container img {
+    width: 500px;
+    height: 336px;
+  }
+  .gear-container img {
+    width: 420px;
+    height: 290px;
+  }
+  .explore-gear-button {
+    font-size: 14px;
+    padding: 10px 18px 10px 18px;
+    margin-top: 16px;
+  }
+  .technology {
+    padding: 0 0 80px 0;
+  }
+  .technology-container img {
+    width: 450px;
+    height: 300px;
+  }
+  .technology-right-side {
+    padding: 0 0 0 30px;
+  }
+  .creators-container img {
+    width: 180px;
+    height: 180px;
+    padding: 0 0 0 16px;
+  }
+  .try-splice h3 {
+    font-size: 42px;
+  }
+  .start-button {
+    font-size: 14px;
+    padding: 10px 18px 10px 18px;
+    margin-top: 8px;
+  }
+  .footer-navigation {
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 940px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 320px) {
 }
