@@ -96,9 +96,6 @@ span {
   justify-self: end;
   padding: 18px 24px 20px 0;
 }
-.logo {
-  padding: 20px 0 20px 20px;
-}
 .click-here {
   display: flex;
   justify-content: center;
@@ -393,9 +390,10 @@ span {
   }
   .sounds-container {
     margin-top: 60px;
+    gap: 30px;
   }
   .sounds-container img {
-    width: 530px;
+    width: 490px;
     height: 336px;
   }
   .explore-sounds-button {
@@ -405,6 +403,7 @@ span {
   }
   .experience-container {
     margin-top: 60px;
+    gap: 30px;
   }
   .experience-container img {
     width: 500px;
@@ -413,6 +412,9 @@ span {
   .gear-container img {
     width: 420px;
     height: 290px;
+  }
+  .gear-container {
+    gap: 30px;
   }
   .explore-gear-button {
     font-size: 14px;
@@ -433,7 +435,9 @@ span {
     width: 160px;
     height: 160px;
   }
-  .andrew-huang, .kshmr, .kesha-lee {
+  .andrew-huang,
+  .kshmr,
+  .kesha-lee {
     display: flex;
     align-items: center;
   }
@@ -450,13 +454,4 @@ span {
   }
 }
 @media only screen and (max-width: 940px) {
-}
-
-@media only screen and (max-width: 768px) {
-}
-
-@media only screen and (max-width: 480px) {
-}
-
-@media only screen and (max-width: 320px) {
 }
